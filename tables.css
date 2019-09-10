@@ -1,0 +1,45 @@
+/****Styling for all elements**********************************************/
+body{
+    font-family: sans-serif;
+}
+/****Styling for both table elements****************************************/
+table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+/****Styling for Ubuntu Chart**********************************************/
+/*table data border*/
+#chart td{
+    border: 3px solid blue;
+}
+/*table header background and border*/
+#chart th{
+    border: 3px solid blue;
+    font-size: 18px;
+    background: lightgray;
+}
+/*every other row styling*/
+#chart tr:nth-child(even){
+    background: lightblue;
+}
+/****Styling for YouTube chart**********************************************/
+/*table data border*/
+#youtube td{
+    border: 3px solid black;
+}
+/*table header background and border*/
+#youtube th{
+    border: 3px solid black;
+    font-size: 18px;
+    background: lightgray;
+}
+/*every other row styling*/
+#youtube tr:nth-child(even){
+    background: lightcyan;
+}
+/*Class selector to style rating stars*/
+.stars{
+    font-size: 64px;
+    color: blue;
+}
